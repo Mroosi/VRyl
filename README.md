@@ -1,2 +1,0 @@
-# VRyl
-Esimene kodune yl

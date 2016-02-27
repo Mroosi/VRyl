@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>VormGet</title>
+  </head>
+  <body>
+    <h1>Registreeri end</h1>
+    <form method="get" action="VormGet.HTML">
+      <table border="1">
+        <caption>Registreerumise vorm</caption>
+        <tr>
+          <th>
+            <label for="username-id">Millist kasutajanime soovid?</label>
+          </th>
+          <td>
+            <input type="text" name="username" id="username-id" placeholder="Kasutajanimi" size="40">
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="password-id">Millist parooli soovid?</label>
+          </th>
+          <td>
+            <input type="password" name="password" id="password-id" placeholder="Parool" size="40">
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="password-id2">Korda parooli</label>
+          </th>
+          <td>
+            <input type="password" name="passwordchek" id="password-id2" placeholder="Parool" size="40">
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="meilID">Sisesta oma e-mail</label>
+          </th>
+          <td>
+            <input type="email" name="meil" id="meilID">
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Sugu
+          </th>
+          <td>
+            <label>
+              <input type="radio" name="sugu" value="mees"> Mees
+            </label>
+            <label>
+              <input type="radio" name="sugu" value="naine"> Naine
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Millised koduloomad sul on?
+          </th>
+          <td>
+            <label>
+              <input type="checkbox" name="koer"> Koer
+            </label>
+            <label>
+              <input type="checkbox" name="kass"> Kass
+            </label>
+            <label>
+              <input type="checkbox" name="närilised"> Närilised<br>
+            </label>
+            <label>
+              <input type="checkbox" name="papagoi"> Papagoi
+            </label>
+            <label>
+              <input type="checkbox" name="elevant"> Elevant
+            </label>
+            <label>
+              <input type="checkbox" name="muu"> Midagi muud
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="numID">Sisesta oma lemmik number</label>
+          </th>
+          <td>
+            <input type="number" name="num" id="numID">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button type="submit">
+              Registreeri
+            </button></td>
+          </tr>
+        </table>
+      </form>
+    </body>
+</html>
